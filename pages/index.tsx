@@ -60,7 +60,7 @@ const Home: NextPage = () => {
                 <label htmlFor="exampleInputEmail1" className="peer  text-center   text-secundariohkf  absolute right-28 -top-3.5 text-base transition-all font-normal peer-placeholder-shown:top-1.5 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-focus:-top-3.5 peer-focus:text-sm">Password</label>
               </div>
 
-              <div className='flex flex-col space-y-2'>
+              <div className='flex flex-col mb-6 space-y-2'>
 
                 <div className='flex flex-row items-center'>
                   {password1.trim().length <= 0 && <HiOutlineMinusCircle className="text-unnamedcolor697ea5 " />}
