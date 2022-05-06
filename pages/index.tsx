@@ -50,7 +50,7 @@ const Home: NextPage = () => {
           </div>
           <h2 className='pb-4 text-xl font-extrabold text-center text-azulprincipalhkf font-OpenSans'>Set Password</h2>
           <h3 className='pb-4 text-base font-bold text-center text-secundariohkf'>Type your new password</h3>
-          <h4 className='pb-4 text-xs lett tracking-normal font-thin text-center text-unnamedcolor707070 '>(At least 8 characters, one capital letter, one number and one special character)</h4>
+          <h4 className='pb-4 text-xs font-thin tracking-normal text-center lett text-unnamedcolor707070 '>(At least 8 characters, one capital letter, one number and one special character)</h4>
 
           <form onSubmit={onSubmit}>
             <div className="mb-2 form-group ">
