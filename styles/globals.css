@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .btn-1 {
+        @apply mb-4 w-full px-3 py-1.5 text-base font-normal text-center bg-clip-padding border-b-2 border-solid border-unnamedcolor4bb9f4 m-0
+    }
+
+    .btn-2 {
+        @apply mb-4 w-full px-3 py-1.5 text-base font-normal text-center bg-clip-padding border-b-2 border-solid border-unnamedcolorff4880 m-0
+    }
+}
